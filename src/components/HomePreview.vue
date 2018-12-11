@@ -111,7 +111,7 @@ export default {
     overflow: hidden;
   }
   .preview {
-    background: url('../assets/backgroundpic.png') no-repeat;
+    background: url('../../static/backgroundpic.png') no-repeat;
     background-size: cover;
     overflow: auto;
     .top {

@@ -93,7 +93,7 @@ export default {
     #exit {
       position: fixed;
       display: inline-block;
-      bottom: 8px; 
+      bottom: 8px;
       right: 8px;
     }
   }
