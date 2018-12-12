@@ -113,7 +113,6 @@ export default {
   .preview {
     background: url('../../static/backgroundpic.png') no-repeat;
     background-size: cover;
-    overflow: auto;
     .top {
       height: 200px;
       padding: 48px;

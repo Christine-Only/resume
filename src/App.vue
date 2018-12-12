@@ -47,10 +47,14 @@ export default {
 </script>
 
 <style lang="less" scoped>
+  html, body{
+    height:100%;overflow:hidden;
+  }
   #app {
     .main {
       display: flex;
-      // height: 100%;
+      height: 100%;
+      overflow: hidden;
       background-color: #F9FAFC;
       .editor{
         width: 500px;
@@ -58,7 +62,6 @@ export default {
         background-color: #fff;
         box-shadow: 0 0 3px rgba(0, 0, 0, .3);
         border-radius: 4px;
-        overflow: auto;
         .icon {
           width: 1em; height: 1em;
           vertical-align: -0.15em;
@@ -72,6 +75,7 @@ export default {
         border-radius: 4px;
         background-color: #fff;
         margin: 16px 16px 16px 8px;
+        height: 100%;
         overflow: auto;
       }
     }
